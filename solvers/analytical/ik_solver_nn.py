@@ -8,7 +8,7 @@ import json
 import time
 import sys
 from pathlib import Path
-sys.path.append(str(Path(__file__).parent.parent))
+sys.path.append(str(Path(__file__).parent.parent.parent))
 
 from utils.kinematics import forward_kinematics
 from utils.metrics import compute_metrics
